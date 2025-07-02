@@ -280,13 +280,14 @@ h1 {
     text-align: center;
 }
 
-.card h2 {
+.city h2 {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 1rem;
     margin-left: 4rem;
     margin-right: 4rem;
     border-bottom: .1px solid #ccc;
+    padding: .2rem;
    
 }
 
@@ -323,4 +324,11 @@ footer {
     margin-top: 2rem;
 }
 
+h2 {
+    text-align: center;
+    padding: .1rem;
+    border-bottom: .1px solid #ccc;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
 
