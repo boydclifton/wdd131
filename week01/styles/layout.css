@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 nav {
     margin: 0 auto;
 }
@@ -27,6 +28,13 @@ nav {
     text-align: center;
 
 }
+
+body {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    height: 100vh;
+
+}
 h1 {
     background-color: grey;
     text-align: center;
@@ -35,13 +43,6 @@ h1 {
 
 h2 {
     color: black;
-}
-
-body {
-    display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
-    height: 100vh;
-
 }
 
 header {
