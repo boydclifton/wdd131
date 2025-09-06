@@ -1,160 +1,15 @@
-/* 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    font-family: Roboto;
-}
-
-
-#course-title {
-    font-family: Merriweather;
-    display: block;
-    text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-.topbar {
-    background-color: #36454f;
-    max-width: 800px;
-    margin: 0 auto;
-
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    
-}
-
-nav ul li {
-    flex: 1 1 100%;
-}
-
-nav a {
-    display: block;
-    text-align: center;
-    padding: 1rem;
-    color: #fff;
-}
-
-nav a:hover {
-    text-decoration: overline;
-}
-
-main {
-    display: grid;
-    max-width: 800px;
-    margin: 0 auto;
-    grid-template-columns: 2fr 1fr;
-    
-
-}
-
-.card {
-      
-      
-    }
-
-
-.profile {
-    width: 150px;
-    margin-right: .2rem;
-    
-    
-
-}
-
-.me img {
-    float: right;
-    margin: .5rem;
-}
-
-h1 {
-    text-align: center;
-    padding: 1rem;
-    border-bottom: .1px solid #ccc;
-    padding: .2rem;
-
-}
-
-.me p {
-    padding: .5rem;
-    text-align: center;
-}
-
-.city h2 {
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    border-bottom: .1px solid #ccc;
-    padding: .2rem;
-   
-}
-
-.bridges {
-    width: 200px;
-    height: auto;
-    
-}
-
-.city img {
-    float: left;
-    margin: .5rem;
-}
-
-.city p {
-    text-align: center;
-    margin: 1rem;
-    
-}
-
-
-.webdev {
-    display: flex;
-    flex-direction: column;
-    
-
-    
-}
-
-
-
-.webdev li a {
-    color: blue;
-    
-}
-
-footer {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-h2 {
-    text-align: center;
-    padding: .1rem;
-    border-bottom: .1px solid #ccc;
-    margin-left: 4rem;
-    margin-right: 4rem;
-} */
-
 
 * {
    
     box-sizing: border-box;
+    
 }
 
 
 
 body {
     font-family: Roboto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 
@@ -162,7 +17,7 @@ body {
     display: block;
     text-align: center;
     font-family:'Gill Sans MT',   sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -205,7 +60,7 @@ h1 {
 }
 main {
     min-width: 200px;
-    max-width: 1000px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 2fr 1fr;
 
