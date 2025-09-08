@@ -9,7 +9,8 @@
 
 body {
     font-family: Roboto;
-    max-width: 1200px;
+    max-width: 1000px;
+    margin: 1 auto;
 }
 
 
@@ -60,9 +61,10 @@ h2 {
 }
 main {
     min-width: 200px;
-    max-width: 1200px;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    
 
 }
 
@@ -156,3 +158,4 @@ h1 {
     grid-column: 1/4;
     text-align: center;
 }
+
