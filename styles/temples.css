@@ -27,6 +27,21 @@ h1 {
 	margin-left: 1rem;
 }
 
+h2 {
+    text-align: center;
+	font-family: times, serif;
+	font-size: 2rem;
+}
+
+.temple {
+     text-align: center;
+	font-family: times, serif;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
 
 #menu {
 	font-size: 2rem;
