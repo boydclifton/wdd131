@@ -1,3 +1,6 @@
+
+
+
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 const text = document.querySelector("text");
@@ -8,12 +11,12 @@ hamButton.addEventListener('click', () => {
 
 });
 
+
 const currentYear = document.querySelector("#currentyear");
 const today = new Date();
 currentYear.innerHTML = today.getFullYear();
 
 const lastModifiedDate = document.lastModified;
 lastModified.innerHTML = lastModifiedDate;
-
 
 

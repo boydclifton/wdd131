@@ -102,7 +102,9 @@ figure img {
     max-width: 200px;
 }
 
-
+.footer, #lastModified {
+    color: black;
+}
 
 
 
