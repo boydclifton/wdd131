@@ -38,13 +38,14 @@ h2 {
 	font-family: times, serif;
 	font-size: 1.5rem;
 	padding-top: 1rem;
+    
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 
 #menu {
-	font-size: 2rem;
+	font-size: 1.3rem;
 	border: 0;
 	background: none;
 	color: #000;
@@ -114,7 +115,7 @@ figure {
 }
 
 figure img {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .footer, #lastModified {
