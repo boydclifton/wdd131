@@ -1,39 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Place Page">
+  <meta name="description" content="Dynamic website of a location for mobile and desktop view.">
   <meta name="author" content="Boyd Stinnett">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
-  <title>WDD 131 - Pittsburgh</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <title>WDD 131 - Location Page</title>
   <link rel="stylesheet" href="styles/place.css">
   <script src="scripts/place.js" defer></script>
 </head>
+
 <body>
   <header>
     <h1>Pittsburgh</h1>
-    
+
   </header>
 
   <main>
-    
+
     <div class="hero">
       <picture>
-       
-            
-             <source srcset="images/pittsburgh-large.webp" media="(min-width: 700px)" />
-            <img src="images/pittsburgh-med.webp" alt="Pittsburgh skyline" width="500" height="333" />
-        </picture>
-        
-      
-      
+        <source srcset="images/pittsburgh-large.webp" media="(min-width: 700px)" />
+        <img src="images/pittsburgh-med.webp" alt="Pittsburgh skyline" width="500" height="333" />
+      </picture>
+
+
+
     </div>
 
-    
+
     <section class="data">
       <h2>Data</h2>
       <ul>
@@ -43,10 +42,10 @@
       </ul>
     </section>
 
-    
+
     <section class="weather">
       <h2>Weather</h2>
-      
+
       <img src="images/weather.svg" alt="sunny icon" class="weather-icon-mobile">
       <ul>
         <li>Temperature: <span id="temperature">42</span> °F</li>
@@ -61,4 +60,5 @@
     <p>Last Modified: <span id="lastmodified"></span></p>
   </footer>
 </body>
+
 </html>
