@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals – Place Page" >
+  <meta name="author" content="Boyd Stinnett" />
+  <title>WDD 131 - Pittsburgh</title>
+  <link rel="stylesheet" href="styles/place.css" >
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Pittsburgh</h1>
+    
+  </header>
+
+  <main>
+    
+    <section class="hero">
+      <picture>
+       
+            
+             <source srcset="images/pittsburgh-large.webp" media="(min-width: 700px)" />
+            <img src="images/pittsburgh-med.webp" alt="Pittsburgh skyline" width="500" height="333" />
+        </section>
+      </picture>
+      
+    </section>
+
+    
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li>Population: 1,000,000</li>
+        <li>Capital: Example City</li>
+        <li>Official Language: Example Language</li>
+      </ul>
+    </section>
+
+    
+    <section class="weather">
+      <h2>Weather</h2>
+      
+      <img src="images/weather.svg" alt="Weather icon" class="weather-icon-mobile" />
+      <ul>
+        <li>Temperature: <span id="temperature">42</span> °F</li>
+        <li>Wind Speed: <span id="windspeed">10</span> mph</li>
+        <li>Wind Chill: <span id="windchill">N/A</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> | Boyd Stinnett | WDD 131</p>
+    <p>Last Modified: <span id="lastmodified"></span></p>
+  </footer>
+</body>
+</html>

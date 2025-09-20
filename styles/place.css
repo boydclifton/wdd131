@@ -1,0 +1,131 @@
+
+:root {
+  --primary-color: #000b6ee0;   
+  --secondary-color: #ffe571; 
+  --accent-color: #ffffff;
+  --max-width: 900px;
+  --font-body: 'Arial', sans-serif;
+}
+
+
+body {
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* ---------- Main ---------- */
+main {
+  
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+
+
+/* Default stacking */
+.data, .weather {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  opacity: 0.95;
+  
+  text-align: center;
+}
+
+
+
+/* Weather heading pseudo icon */
+.weather h2::after {
+  content: " ⛅";
+  align-self: center;
+}
+
+.weather-icon-mobile {
+  display: none;
+  width: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* ---------- Desktop Overlay ---------- */
+@media (min-width: 701px) {
+ 
+    .hero {
+    margin-bottom: 0;
+  }
+
+  .data, .weather {
+    position: absolute;
+    top: 50%;
+    width: 250px;
+  }
+
+  .data {
+    left: 5%;
+  }
+
+  .weather {
+    right: 5%;
+  }
+
+  .data, .weather {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  opacity: 0.95;
+  
+  text-align: center;
+}
+
+}
+
+/* ---------- Mobile tweaks ---------- */
+@media (max-width: 700px) {
+
+
+
+  .weather h2::after {
+    content: "";
+  }
+
+  .weather-icon-mobile {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
