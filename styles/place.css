@@ -80,12 +80,14 @@ main {
 footer {
     text-align: center;
     border-top: 1px solid black;
+    padding-top: 1rem;
     
-    padding-bottom: 1rem;
-    background-color: var(--primary-color);
-    color: var(--accent-color);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    
+    
 }
+
+
 
 
 
@@ -96,9 +98,7 @@ footer {
 
 @media (min-width: 701px) {
  
-    .hero {
-    margin-bottom: 0;
-  }
+  
 
   .data, .weather {
     position: absolute;
@@ -124,6 +124,8 @@ footer {
   
   text-align: center;
 }
+
+
 
 }
 
