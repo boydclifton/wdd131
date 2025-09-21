@@ -79,14 +79,13 @@ main {
 
 footer {
     text-align: center;
-    border-top: 1px solid black;
-    padding-top: 1rem;
+    border-top: 2px solid black;
+    
     
     font-size: 1.2rem;
     
     
 }
-
 
 
 
@@ -102,16 +101,19 @@ footer {
 
   .data, .weather {
     position: absolute;
-    top: 40%;
+    
     width: 250px;
   }
 
   .data {
     left: 5%;
+    top: 20%;
   }
 
   .weather {
     right: 5%;
+    bottom: 35%
+
   }
 
   .data, .weather {
