@@ -3,8 +3,8 @@
   --primary-color: #000b6ee0;   
   --secondary-color: #ffe571; 
   --accent-color: #ffffff;
-  --max-width: 900px;
-  --font-body: 'Arial', sans-serif;
+  
+  --font-body: 'Roboto', sans-serif;
 }
 
 
@@ -40,7 +40,7 @@ main {
 .hero {
   position: relative;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .hero img {
@@ -54,7 +54,7 @@ main {
 
 
 .data, .weather {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 1rem;
   border: 2px solid #ddd;
   border-radius: 0.5rem;
@@ -79,6 +79,12 @@ main {
 
 footer {
     text-align: center;
+    border-top: 1px solid black;
+    
+    padding-bottom: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    font-size: 1.1rem;
 }
 
 
@@ -96,7 +102,7 @@ footer {
 
   .data, .weather {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 250px;
   }
 
@@ -140,6 +146,7 @@ footer {
 
   .weather-icon-mobile {
     display: block;
-    margin: 0.5rem 0;
+    margin: 0 auto;
+    
   }
 }
