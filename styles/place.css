@@ -115,12 +115,12 @@ footer {
 
   .data {
     left: 5%;
-    top: clamp(1rem, 20%, calc(100% - 1rem));
+    top: clamp(1rem, 32%, calc(100% - 1rem));
   }
 
   .weather {
     right: 5%;
-    top: clamp(1rem, 20%, calc(100% - 1rem));
+    top: clamp(1rem, 32%, calc(100% - 1rem));
     
     
 
