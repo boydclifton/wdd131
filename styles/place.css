@@ -102,20 +102,20 @@ footer {
 
 
 
-@media (min-width: 701px) {
+@media (min-width: 801px) {
  
   
 
   .data, .weather {
     position: absolute;
     max-width: 40%;
-    
+    font-size: 1rem;
     min-width: 200px;
   }
 
   .data {
     left: 5%;
-    top: clamp(1rem, 32%, calc(100% - 1rem));
+    top: clamp(1rem, 30%, calc(100% - 1rem));
   }
 
   .weather {
@@ -150,7 +150,7 @@ footer {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
 
 
