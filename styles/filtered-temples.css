@@ -23,16 +23,17 @@ main {
 h1 {
     text-align: center;
 	font-family: times, serif;
-	font-size: 1.5rem;
+	
 	margin-left: 1rem;
 }
 
 h2 {
+    margin: 0 auto;
     text-align: center;
-	font-family: times, serif;
+	
 	font-size: 3rem;    
     text-decoration: underline;
-    margin-bottom: 3rem;
+    
 }
 
 .temple {
@@ -42,7 +43,7 @@ h2 {
 	padding-top: 1rem;
     
     color: white;
-    font-size: 1.7rem;
+    
 }
 
 
@@ -126,7 +127,7 @@ h3 {
 }
 
 .photos img {
-    width: 220px;
+    width: 250px;
     height: 150px;
     display: block;
     margin: 0 auto;

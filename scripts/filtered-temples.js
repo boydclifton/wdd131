@@ -51,7 +51,7 @@ const temples = [
 		dedicated: "2020, May 2",
 		area: 6861,
 		imageUrl:
-			"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+			"https://churchofjesuschristtemples.org/assets/img/temples/yigo-guam-temple/yigo-guam-temple-26495-main.jpg"
 	},
 	{
 		templeName: "Washington D.C.",
