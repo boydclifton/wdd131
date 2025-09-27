@@ -132,3 +132,53 @@ footer {
 }
 
 
+
+
+
+table {
+    grid-column: 1/3;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    caption {
+        caption-side: bottom;
+        font-size: smaller;
+        padding: 0.5rem;
+    }
+   
+
+    th, td {
+        padding: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        white-space: pre;
+    }
+
+    thead th,
+    tbody td {
+        text-align: center;
+    }
+
+    thead {
+        color: #fff;
+        background-color: #000;
+
+        th {
+            font-size: larger;
+            padding: 1rem;
+        }
+
+        tr:nth-last-child(1)  {
+            background-color: #333;
+        }
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #eee;
+    }
+}
+
+.empty {
+    background-color: #000;
+}

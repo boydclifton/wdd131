@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Practice of lazy loading images">
+    <meta name="author" content="Boyd Stinnett">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images</h1>
+    <p>Scroll down to load more images</p>
+    </header>
+    <main>
+    
+    <picture>
+        <img loading="lazy" src="https://placehold.co/400x700" alt="Image 1" width="400" height="600">
+    </picture>
+    <picture>
+         <img loading="lazy" src="https://placehold.co/400x800" alt="Image 2" width="400" height="600">
+    </picture>
+    <picture> 
+        <img loading="lazy" src="https://placehold.co/400x650" alt="Image 3" width="400" height="600">
+    </picture>
+    <picture>
+         <img loading="lazy" src="https://placehold.co/400x750" alt="Image 4" width="400" height="600">
+        </picture>
+    <picture>
+         <img loading="lazy" src="https://placehold.co/400x850" alt="Image 5" width="400" height="600">
+        </picture>
+    <picture>
+         <img loading="lazy" src="https://placehold.co/400x600" alt="Image 6" width="400" height="600">
+        </picture>
+    
+        
+    </main>
+    <footer>
+          <p>
+            ©️<span id="currentyear"></span> Boyd Stinnett - USA
+        </p>
+
+        <p id="lastModified">
+
+        </p>
+    </footer>
+</body>
+</html>
