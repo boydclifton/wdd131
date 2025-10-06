@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #003366;   
+  --secondary-color: #ffd24c;  
+  --background-color: #f9fafc;
+  --text-color: #222222;       
+  --white: #ffffff;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header, footer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+
+main {
+  max-width: 90%;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+form label, form legend {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--secondary-color);
+  background-color: #fffbea;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+  accent-color: var(--primary-color); 
+}
+
+
+input[type="submit"] {
+  margin-top: 1.5rem;
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition:  0.2s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transform: scale(1.02);
+}
+
+
+@media (min-width: 500px) {
+  main {
+    max-width: 700px;
+    padding: 2rem;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    align-items: start;
+  }
+
+  fieldset,
+  textarea,
+  input[type="submit"] {
+    grid-column: span 2;
+  }
+
+  label {
+    margin-top: 0.5rem;
+  }
+}
