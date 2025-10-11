@@ -1,0 +1,78 @@
+:root {
+  --ps-blue:#003791;
+  --ps-blue-dark: #0b3f8a;
+  --background: #f6f7fb;
+  --text: #131516;
+  --border: #e5e7eb;
+  --hero-font: #aed0ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--text);
+    background: var(--background);
+    line-height: 1.6;
+}
+
+.all-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    padding: .7rem 1rem; 
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--ps-blue);
+    font-weight: 700;
+    font-family: orbitron, sans-serif;
+
+}
+
+.all-nav a {
+    text-decoration: none; 
+    color: --var(--text);
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.all-nav a:hover, .all-nav a:active {
+    background: var(--ps-blue);
+    color: var(--background);
+}
+
+.all-footer {
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid var(--border);
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(ps--blue);
+}
+
+main {
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: var(--ps-blue);
+    font-family: Orbitron;
+};
