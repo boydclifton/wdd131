@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
   const topic = document.getElementById('topic').value;
   const message = document.getElementById('message').value.trim();
 
-  // Basic validation
+
   if (!name || !email || !message) {
     response.textContent = 'Please fill in all required fields.';
     response.style.color = 'red';
